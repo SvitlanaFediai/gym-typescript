@@ -1,0 +1,36 @@
+.footer {
+  background-color: var(--light-pink);
+  padding: 50px 0;
+  text-align: left;
+}
+
+.footer_box {
+  display: flex;
+  gap: 30px;
+}
+
+.footer_logo {
+  flex-basis: 50%;
+}
+
+.footer_links,
+.footer_contact {
+  flex-basis: 25%;
+}
+
+.footer_text {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.footer_subtitle {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) { 
+  .footer_box {
+    flex-direction: column;
+  }
+}

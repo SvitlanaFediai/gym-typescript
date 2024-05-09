@@ -1,0 +1,50 @@
+.contact_header {
+  margin-bottom: 30px;
+}
+
+.title_span {
+  color: var(--light-red);
+}
+
+.section_desc {
+  width: 50%;
+}
+
+.contact_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 70px;
+}
+
+.contact_form div {
+  flex: 1 1 0;
+}
+
+.contact_img {
+  position: relative;
+}
+
+.contact_img::before {
+  position: absolute;
+  content: url(../../assets/EvolveText.png);
+  z-index: -1;
+  bottom: -80px;
+  right: 10px;
+}
+
+@media (max-width: 768px) { 
+  .section_desc {
+    width: 100%;
+  }
+
+  .contact_form {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+
+  .contact_img::before {
+    display: none;
+  }
+}

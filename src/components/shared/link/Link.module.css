@@ -1,0 +1,13 @@
+.link {
+  color: var(--red);
+  cursor: pointer;
+  transition: all .5s ease-in-out;
+}
+
+.link:hover {
+  color: var(--light-red);
+}
+
+.link_active {
+  color: var(--light-red);
+}

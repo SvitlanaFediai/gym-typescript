@@ -1,0 +1,49 @@
+.classes {
+  padding: 50px 0;
+  background-color: var(--light-pink);
+}
+
+.classes_desc {
+  margin-bottom: 30px;
+}
+
+.section_desc {
+  width: 50%;
+}
+
+.classes_carousel {
+  overflow-x: auto; 
+  overflow-y: hidden; 
+  width: 100%; 
+  height: 355px;
+}
+
+.classes_carousel::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+	border-radius: 10px;
+}
+
+.classes_carousel::-webkit-scrollbar {
+  width: 10px;
+	background-color: #F5F5F5;
+}
+
+.classes_carousel::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(right,
+  #ff6b66 0%,
+  #ffcd58 100%);
+}
+
+.classes_list {
+  white-space: nowrap; 
+  width: 2800px;
+}
+
+@media (max-width: 768px) { 
+  .section_desc {
+    width: 100%;
+  }
+}

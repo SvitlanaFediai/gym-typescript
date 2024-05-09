@@ -1,0 +1,31 @@
+.form_input {
+  position: relative;
+  border: 2px solid var(--light-red);
+  border-radius: 10px;
+}
+
+.form_input input {
+  width: 100%;
+  background: transparent;
+  padding: 20px 56px 20px 24px;
+  outline: none;
+  border: none;
+  color: var(--light-red);
+}
+
+.form_input input::-webkit-inner-spin-button,
+.form_input input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form_input input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form_input label {
+  position: absolute;
+  right: 1.5rem;
+  top: 1.25rem;
+  color: var(--light-red);
+}

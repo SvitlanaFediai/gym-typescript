@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Montserrat:wght@700&display=swap");
+
+:root {
+  /*colors*/
+  --white: #f8f4eb;
+  --light-gray: #efe6e6;
+  --gray: #dfcccc;
+  --red: #5e0000;
+  --light-pink: #ffe1e0;
+  --pink: #ffa6a3;
+  --light-red: #ff6b66;
+  --light-yellow: #ffcd58;
+  --yellow: #ffc132;
+
+  /*fonts*/
+  --main-font: "DM Sans", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+
+  /*screen*/
+  --mobile: 480px;
+  --tablet: 768px;
+  --width: 1060px;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: var(--main-font);
+  color: var(--red);
+  text-align: left;
+  background-color: var(--white);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+a {
+  font-family: inherit;
+  text-decoration: none;
+  color: currentColor;
+}
+
+button,
+input {
+  font-family: inherit;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+.swiper {
+  width: 400px;
+}
+
+.swiper-slide {
+  background: var(--light-gray);
+  padding: 40px;
+  border-radius: 10px;
+}

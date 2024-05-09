@@ -1,0 +1,54 @@
+.testimonials {
+  padding: 30px 0;
+}
+
+.testimonials_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.testimonials_box::before {
+  position: absolute;
+  content: url(../../assets/Arrow.png);
+  position: absolute;
+  z-index: -1;
+  top: -10%;
+  left: 5%;
+}
+
+.testimonials_box::after {
+  position: absolute;
+  content: url(../../assets/Sparkles.png);
+  position: absolute;
+  z-index: -1;
+  bottom: 5%;
+  right: 55%;
+} 
+
+.testimonials_desc {
+  max-width: 450px;
+}
+
+.bmi {
+  background-color: var(--light-pink);
+  padding: 50px 0;
+}
+
+@media (max-width: 768px) { 
+  .testimonials_box {
+    flex-direction: column;
+  }
+
+  .testimonials_box::before,
+  .testimonials_box::after {
+    display: none;
+  }
+
+  .testimonials_desc {
+    max-width: 100%;
+  }
+}

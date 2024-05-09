@@ -1,0 +1,64 @@
+.benefit_card {
+  cursor: pointer;
+  transition: all .5s ease-out;
+  padding: 10px 20px;
+  border: 2px solid var(--light-gray);
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  flex: 1 1 0;
+  align-self: stretch;
+  position: relative;
+}
+
+.benefit_card:hover {
+  background-color: var(--pink);
+}
+
+.benefit_card:hover .benefit_overlay {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.benefit_icon_box {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid var(--light-gray);
+  background-color: var(--light-pink);
+}
+
+.benefit_icon {
+  width: 24px;
+  height: 24px;
+}
+
+.benefit_info {
+
+}
+
+.benefit_title {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.benefit_desc {
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  margin-bottom: 10px;
+}
+
+.benefit_overlay {
+  bottom: 4%;
+  right: 10%;
+  transform: translateY(50%);
+  opacity: 0;
+  text-align: right;
+  transition: all .3s ease-in;
+  position: absolute;
+}

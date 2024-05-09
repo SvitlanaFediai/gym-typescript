@@ -1,0 +1,85 @@
+.section_desc {
+  width: 50%;
+  margin-bottom: 1.3rem; 
+}
+
+.text {
+  margin-bottom: 1.25rem; 
+  font-size: 0.875rem;
+  line-height: 1.25rem; 
+  text-align: left;
+}
+
+.benefits_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 40px;
+}
+
+.benefit_detail {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.benefit_detail img {
+  flex: 1 1 0;
+}
+
+.benefit_subtext {
+  color: var(--pink);
+}
+
+.benefit_info {
+  text-align: left;
+  flex: 1 1 0;
+}
+
+.benefit_waves {
+  position: relative;
+}
+
+.benefit_waves::before {
+  position: absolute;
+  content: url(../../assets/AbstractWaves.png);
+  position: absolute;
+  z-index: -1;
+  bottom: 90px;
+  left: -10%;
+}
+
+.benefit_desc {
+  margin-bottom: 50px;
+}
+
+.benefit_btn {
+  position: relative;
+}
+
+.benefit_btn::before {
+  content: url(../../assets/Sparkles.png);
+  position: absolute;
+  z-index: -1;
+  right: 40%;
+}
+
+@media (max-width: 768px) { 
+  .section_desc {
+    width: 100%;
+  }
+
+  .benefits_list {
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .benefit_detail {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .benefit_detail img {
+    height: 450px;
+  }
+}
