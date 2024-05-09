@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/gym-typescript/static/css/main.b870356a.css",
+    "main.js": "/gym-typescript/static/js/main.c8f9d005.js",
+    "static/media/image4.png": "/gym-typescript/static/media/image4.2d1e494f729dadf8e1ef.png",
+    "static/media/image6.png": "/gym-typescript/static/media/image6.3e4b96cb1a61baf154be.png",
+    "static/media/image3.png": "/gym-typescript/static/media/image3.c175348892ea4f0aa60c.png",
+    "static/media/image2.png": "/gym-typescript/static/media/image2.e94f50c411af217c548e.png",
+    "static/media/image5.png": "/gym-typescript/static/media/image5.198f84b59b230ce3e6b5.png",
+    "static/media/image1.png": "/gym-typescript/static/media/image1.fa9e1496acf9cac66c12.png",
+    "static/media/avatar03.png": "/gym-typescript/static/media/avatar03.465a47f8e0dec0dc528c.png",
+    "static/media/HomePageGraphic.png": "/gym-typescript/static/media/HomePageGraphic.73a6d645a25fd03b34af.png",
+    "static/media/BenefitsPageGraphic.png": "/gym-typescript/static/media/BenefitsPageGraphic.feee8fadffdda6f5f65a.png",
+    "static/media/ContactUsPageGraphic.png": "/gym-typescript/static/media/ContactUsPageGraphic.cb6b05e82d856d0e1f22.png",
+    "static/media/bmiPhoto-removebg-preview.png": "/gym-typescript/static/media/bmiPhoto-removebg-preview.adf5216d401e1ec37b6a.png",
+    "static/media/avatar02.png": "/gym-typescript/static/media/avatar02.43d3323871cb17add5e2.png",
+    "static/media/avatar01.png": "/gym-typescript/static/media/avatar01.712b9be90c75dec89232.png",
+    "static/media/Circles.png": "/gym-typescript/static/media/Circles.4d2329b7d01d9f54b3d0.png",
+    "index.html": "/gym-typescript/index.html",
+    "main.b870356a.css.map": "/gym-typescript/static/css/main.b870356a.css.map",
+    "main.c8f9d005.js.map": "/gym-typescript/static/js/main.c8f9d005.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b870356a.css",
+    "static/js/main.c8f9d005.js"
+  ]
+}
