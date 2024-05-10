@@ -51,7 +51,7 @@ const Benefits = ({ setSelectedPage }: BenefitsProps) => {
           </motion.div>
 
           <div className={styles.benefit_detail}>
-            <img src={image} alt="benefit-gym-image" />
+            <img src={image} alt="benefit-gym" />
             <div className={styles.benefit_info}>
               <div className={styles.benefit_waves}>
                 <motion.div 
